@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.b1{
+    text-align: center;
+    background-color: blue;
+    color: azure;
+}
+
+.box{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #dadada;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.white{
+    background-image: url('../images/white.jpg');
+}
+
+.black{
+    background-image: url('../images/black.jpg');
+}
+
+body{
+    background-image: url('../images/chessbg.png');
+    background-size: 1800px;
+}

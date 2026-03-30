@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    font-size: 10px;
+}
+
+.topbar{
+    padding: 3px;
+    width: 100%;
+    height: auto;
+    background-color: #b1f4c0;
+}
+.sn{
+    padding-left: 10px;
+}
+
+.lay{
+    padding-left: 80px;
+}
+
+.gem{
+    padding-left: 50px;
+}
+
+.oreo1{
+    width: 330px;
+    height: 200px;
+    padding-right: 30px;
+}
+
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+
+.top-header{
+    width: 300px;
+}
+
+.main-header{
+    width: 920px;
+}
+
+.footer-header{
+    width: 100px;
+}
+
+.name{
+    width: 150px;
+    font-size: 30px;
+    color: #0a130b;
+    font-family: Oswald;
+}
+
+.texts{
+    border: none;
+    width: 280px;
+}
+
+.ri-search-line{
+    font-size: 18px;
+    margin-left: 2px;
+}
+
+.btn{
+    margin-left: 5px;
+}
+
+.speas{
+    width: 610px;
+}
+
+.i1{
+    font-size: 15px;
+}
+
+.b1{
+ margin-left: 5px;
+}
+
+.btn1{
+    width: 200px;
+    padding: 8px;
+}
+
+.btt{
+    color: aliceblue;
+    border-radius: 3px;
+    border: none;
+    padding: 5px;
+    background-color: #035615;
+}
+
+.s{
+    width: 50px;
+}
+
+.home{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.heading{
+    padding: 15px 10px;
+    width: 70%;
+    height: 100px;
+    background-color: #d1fcdd;
+    font-size: 40px;
+    border-radius: 8px;
+    font-family: Oswald;
+    margin: 0 auto;
+}
+
+.m1{
+    margin-top: 85px;
+}
+
+.t1{
+    width: 250px;
+    font-size: 13px;
+}
+
+.h2{
+    margin-top: 20px;
+}
+
+.c1{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+
+.menu{
+    font-size: 15px;
+}
+
+ul li{
+    list-style: none;
+}
+
+select{
+    border: none;
+}
+
+.z2{
+    width: 670px;
+}
+
+.z3{
+    width: 352px;
+}
+
+.m2{
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.box{
+    width: 312px;
+    height: 325px;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.d1{
+    margin-left: 10px;
+}
+
+.img{
+    width: 100%;
+    height: 185px;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px;
+}
+
+.content .h3{
+    font-size: 23px;
+
+}
+
+.w{
+    font-size: 15px;
+}
+
+.content{
+    padding: 10px;
+}
+
+.ru{
+    width: 24px;
+    font-size: 15px;
+}
+
+.sp{
+    width: 205px;
+}
+
+.vs{
+    border: none;
+    border-radius: 4px;
+    background-color: #88e19b;
+}
+
+.popcon1{
+    padding-left: 4px;
+}
+.box4{
+     margin:40px 42%;
+}
+
+.box1{
+    width: 30px;
+    height: 30px;
+    padding: 0px 7px 7px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.Cart{
+    padding: 80px 0px 40px;
+}
+
+.one{
+    font-size: 30px;
+}
+
+
+ .p2{
+    font-size: 15px;
+    font-weight: 700;
+ }
+.bg1{
+    background-color: #5cff7d;
+}
+
+.fhead a{
+    font-size: 12px;
+    font-weight: 800;
+    color: #02230a;
+}
+
+.fhead{
+    font-size: 11px;
+    width: 580px;
+    height: auto;
+}
+
+.speas1{
+    width: 400px;
+}
+
+.ficon{
+    font-size: 11px;
+    width: 250px;
+}
+
+.aicon{
+    box-sizing: border-box;
+    margin-left: 6PX;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-bottom: 27px;
+    color: #8b8b8b;
+    width: 25px;
+    height: 25px;
+    border: 1px solid #9e9494;
+}
+
+.BG{
+    padding: 10px 0px;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.pr{
+    margin-bottom: 19px;
+    height: 60px;
+    text-align: center;
+}
+
+.lightgreybg{
+    padding: 20px 0px;
+    background-color: #b4b5b5;
+}
+
+.product-img{   
+    width: 250px;
+}
+
+.product-name{
+    width: 250px;
+}
+
+.product-amount{
+    width: 150px;
+}
+
+.product-status{
+    width: 250px;
+}
+
+.product-action{
+    width: 250px;
+}
+
+.product-remove{
+    width: 100px;
+}
+
+.product-remove i{
+    font-size: 20px;
+}
+
+.product-img img{
+    height: 70px;
+}
+
+.is{
+    border-radius: 10px;
+    background-color: #5cff7d;
+}
+
+.si1{
+    font-size: 12px;
+    padding-bottom: 200px;
+}
+
+.product-status h3{
+    width: 100px;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #4af160;
+}
+
+.product-action h3{
+    width: 100px;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-color: #4af160;
+}
+
+.product-action h4{
+    width: 100px;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: white;
+    background-color: #031249;
+}
+
+.product-status h4{
+    width: 100px;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: white;
+    background-color: #900303;
+}

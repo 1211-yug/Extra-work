@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+p{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.yug{
+    width: 500px;
+    height: 500px;
+    border: 2px dashed green;
+    background-color: #e5e5c5;
+    margin: 0px auto;
+    text-align: center;
+}
+body{
+    background-image: url('../images/in.jpg');
+    background-size: cover;
+}
+.b1{
+    border-color: 2px  green;
+    background-color: green;
+    margin-right: auto;
+    margin-left: auto;
+}
