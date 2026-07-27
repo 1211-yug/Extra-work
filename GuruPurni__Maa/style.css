@@ -1,0 +1,303 @@
+/* =======================
+   GOOGLE RESET
+======================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#fff8e7,#fff1d6);
+    color:#333;
+}
+
+/* =======================
+   SECTION
+======================= */
+
+.guru-section{
+    width:100%;
+    padding:100px 8%;
+}
+
+.container{
+    max-width:1300px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:70px;
+}
+
+/* =======================
+   IMAGE
+======================= */
+
+.guru-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.guru-image img{
+
+    width:100%;
+    max-width:500px;
+
+    transition:.5s;
+    cursor:pointer;
+
+    filter:drop-shadow(0 20px 35px rgba(255,153,0,.35));
+
+}
+
+.guru-image img:hover{
+
+    transform:scale(1.05);
+
+}
+
+/* =======================
+   CONTENT
+======================= */
+
+.guru-content{
+
+    flex:1;
+
+}
+
+.guru-content span{
+
+    color:#d97706;
+
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.guru-content h2{
+
+    font-size:52px;
+
+    font-family:'Cinzel',serif;
+
+    margin:15px 0 25px;
+
+    line-height:1.2;
+
+}
+
+.guru-content p{
+
+    font-size:17px;
+
+    line-height:32px;
+
+    color:#555;
+
+}
+
+/* =======================
+   CARDS
+======================= */
+
+.card-box{
+
+    margin-top:45px;
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+}
+
+.card{
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+    cursor:pointer;
+
+}
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(255,153,0,.25);
+
+}
+
+.icon{
+
+    width:65px;
+    height:65px;
+
+    background:#fff3dc;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:28px;
+
+    margin-bottom:18px;
+
+}
+
+.card h3{
+
+    margin-bottom:12px;
+
+    font-size:22px;
+
+}
+
+.card p{
+
+    font-size:15px;
+
+    line-height:28px;
+
+}
+
+/* =======================
+   TABLET
+======================= */
+
+@media(max-width:992px){
+
+.container{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.guru-content h2{
+
+    font-size:42px;
+
+}
+
+.card-box{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+/* =======================
+   MOBILE
+======================= */
+
+@media(max-width:768px){
+
+.guru-section{
+
+    padding:70px 20px;
+
+}
+
+.guru-image img{
+
+    max-width:350px;
+
+}
+
+.guru-content h2{
+
+    font-size:34px;
+
+}
+
+.guru-content p{
+
+    font-size:16px;
+
+    line-height:28px;
+
+}
+
+.card-box{
+
+    grid-template-columns:1fr;
+
+}
+
+.card{
+
+    text-align:center;
+
+}
+
+.icon{
+
+    margin:auto auto 18px;
+
+}
+
+}
+
+/* =======================
+   SMALL MOBILE
+======================= */
+
+@media(max-width:480px){
+
+.guru-content span{
+
+    font-size:14px;
+
+}
+
+.guru-content h2{
+
+    font-size:28px;
+
+}
+
+.guru-content p{
+
+    font-size:15px;
+
+}
+
+.guru-image img{
+
+    max-width:280px;
+
+}
+
+.card{
+
+    padding:20px;
+
+}
+
+}
