@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz App</title>
+
+    <!-- icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+        integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- animation cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div id="start_page">
+        <div class="page_title" id="page_Title" data-aos="zoom-in">Javascript Quiz App</div>
+        <button onclick="quiz_start()" class="btn" id="startBtn" data-aos="zoom-in">Quiz Start</button>
+    </div>
+
+
+    <div class="main_content">
+        <div class="round" style="left: 280px;"></div>
+
+        <!-- header section -->
+        <header class="header">
+            <h1 class="logo">Javascript Quiz App</h1>
+            <div class="timer">
+                <i class="fa-regular fa-clock"></i>
+                <span id="timer">10:00</span>
+            </div>
+        </header>
+
+        <div class="container">
+
+            <!-- progress Bar section -->
+            <div class="progress-section">
+                <div class="press-info">
+                    <span id="questionCount">Question 1 of 10</span>
+                    <span id="progressPercent">10% Complete</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+
+            <!-- Questions section -->
+            <div class="question-box">
+                <h2 class="question" id="question"> Question </h2>
+            </div>
+
+
+            <!-- Options section -->
+            <div class="options-container">
+                <ul class="options" id="options">
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- footer section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <button id="previousBtn"><i class="fa-solid fa-arrow-left-long"></i> Previous</button>
+                <button id="nextBtn">Next <i class="fa-solid fa-arrow-right-long"></i></button>
+            </div>
+        </footer>
+
+        <div class="round r1" style="right: 240px;"></div>
+    </div>
+
+    <div id="score_page">
+        <div class="score_page">
+            <div class="score_title" id="score_Title">Your Score</div>
+            <div class="score_fourbox">
+                <div class="score_borad sr_box">
+                    <span class="sr_label">Total Questions</span>
+                    <span class="sr_value" id="totalQuestionsValue">0</span>
+                </div>
+                <div class="score_correct sr_box">
+                    <span class="sr_label">Correct</span>
+                    <span class="sr_value" id="correctValue">0</span>
+                </div>
+                <div class="score_wrong sr_box">
+                    <span class="sr_label">Wrong</span>
+                    <span class="sr_value" id="wrongValue">0</span>
+                </div>
+                <div class="left_time sr_box">
+                    <span class="sr_label">Time Left</span>
+                    <span class="sr_value" id="timeLeftValue">00:00</span>
+                </div>
+            </div>
+            <button onclick="restart_quiz()" class="restartBtn" id="restartBtn">Restart</button>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
